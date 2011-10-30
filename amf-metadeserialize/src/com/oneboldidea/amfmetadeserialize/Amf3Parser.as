@@ -14,6 +14,8 @@ package com.oneboldidea.amfmetadeserialize
 	import mx.messaging.messages.CommandMessageExt;
 
 	/**
+	 * This is the main entrance point for using this library.
+	 *
 	 * Intended use for this class is as follows.  It should roughly follow the
 	 * ByteArray exposed methods for readObject, readByte, readUTF, etc.
 	 *
