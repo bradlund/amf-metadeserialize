@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.Amf3Parser"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.data.Amf3Object"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.error.Amf3ParserError"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.Amf3MarkerTypes"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.data.Amf3ClassTraits"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.TestAmf3ParserOverride"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.test.TestSuiteAmf3Parser"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.test.data.UserTO"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.test.TestAmf3Parser"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.Amf3ByteStreamParser"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.Amf3MessageParser"/>
+    <classEntry path="com.oneboldidea.amfmetadeserialize.data.Amf3ByteStreamInfo"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

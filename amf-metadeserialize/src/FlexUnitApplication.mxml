@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is an auto generated file and is not intended for modification. -->
+
+<s:Application 
+	xmlns:flexui="flexunit.flexui.*"
+	xmlns:fx="http://ns.adobe.com/mxml/2009"
+	xmlns:mx="library://ns.adobe.com/flex/mx"
+	xmlns:s="library://ns.adobe.com/flex/spark"
+	minHeight="600"
+	minWidth="955"
+	creationComplete="onCreationComplete()">
+	<fx:Script>
+		<![CDATA[
+			import com.oneboldidea.amfmetadeserialize.test.TestSuiteAmf3Parser;
+
+			public function currentRunTestSuite():Array
+			{
+				var testsToRun:Array = new Array();
+				testsToRun.push( com.oneboldidea.amfmetadeserialize.test.TestSuiteAmf3Parser );
+				return testsToRun;
+			}
+
+			private function onCreationComplete():void
+			{
+				testRunner.runWithFlexUnit4Runner( currentRunTestSuite(), "amf-metadeserialize" );
+			}
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<flexui:FlexUnitTestRunnerUI id="testRunner">
+	</flexui:FlexUnitTestRunnerUI>
+</s:Application>
